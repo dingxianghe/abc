@@ -5,3 +5,9 @@ git commit -m "wrote a 文件名 file"//提交到仓库
 git status//查看文件修改结果
 git diff//查看文件修改的内容
 git commit -m "add distributed"//提交修改后的内容
+git log//查看详细的历史纪录
+git log --pretty=oneline//查看简练的历史纪录
+git reset --hard HEAD^//退回到上一个版本 
+HEAD表示版本  HEAD^^表示退回两个版本 HEAD~100表示退回100个
+git reset --hard 版本号//又返回之前的版本号 只要写前几位数
+git reflog//纪录你的操作指令
