@@ -1,2 +1,6 @@
 ﻿pwd //显示当前目录
 git init//把目录变成Git可以管理的仓库
+git add 文件名//添加文件
+git commit -m "wrote a 文件名 file"//提交到仓库
+git status//查看文件修改结果
+git diff//查看文件修改的内容
