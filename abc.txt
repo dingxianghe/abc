@@ -1,5 +1,8 @@
-﻿pwd //显示当前目录
+mkdir 目录名字// 创建一个目录
+cd 目录名字//找到这个目录
+pwd //查看该目录路径
 git init//把目录变成Git可以管理的仓库
+
 git add 文件名//添加文件
 git commit -m "wrote a 文件名 file"//提交到仓库
 git status//查看文件修改结果
@@ -18,3 +21,12 @@ git rm 文件名//确认删除 并且提交//误删则撤销
 
 建立远程仓库
 $ ssh-keygen -t rsa -C "dingxianghe126@qq.com"//创建钥匙
+$ git remote add origin git@github.com:用户名/仓库名.git//要关联一个远程库
+git push -u origin master//第一次推送master分支的所有内容；
+git push origin master//推送最新修改；
+git clone git@github.com:用户名/仓库名.git//克隆一个库到本地
+$ cd 目录名//创建目录
+$ ls//进入到目录
+
+ 提示出错信息：fatal: remote origin already exists.
+    解决办法：输入$ git remote rm origin
