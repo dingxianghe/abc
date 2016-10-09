@@ -11,3 +11,10 @@ git reset --hard HEAD^//退回到上一个版本
 HEAD表示版本  HEAD^^表示退回两个版本 HEAD~100表示退回100个
 git reset --hard 版本号//又返回之前的版本号 只要写前几位数
 git reflog//纪录你的操作指令
+git checkout -- 文件名//撤销本次修改到暂存区
+git reset HEAD 文件名//撤销暂存区的修改回到工作区
+rm 文件名//删除该文件
+git rm 文件名//确认删除 并且提交//误删则撤销
+
+建立远程仓库
+$ ssh-keygen -t rsa -C "dingxianghe126@qq.com"//创建钥匙
