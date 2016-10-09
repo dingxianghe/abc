@@ -38,5 +38,4 @@ git branch//查看所有分支 前面加*的是当前分支
 git checkout master//切换回master分支
 git merge 分支名//将某分支合并到当前分支上面来
 git branch -d 分支名//删除分支
-111
-222
+
